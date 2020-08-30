@@ -1,3 +1,12 @@
+/*
+index.html
+
+Copyright (c) 2020 oldlick
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+*/
+
 var microBitBle;
 
 var IrSens;
