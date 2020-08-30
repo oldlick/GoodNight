@@ -45,7 +45,8 @@ This software is released under the MIT License, see LICENSE.txt.
   - Line 2: Turn off the lights.
   - Line 3: Turn on the air conditioning.
   - Line 4: Turn off the air conditioning.  
-- Use a 3D printer to print a compact base of Micro::bit.  
+- Use a 3D printer to print a compact base of Micro::bit.
+  - The 3D data is in MicrobitBase.stl
   ![MicrobitBase.jpg](/Image/MicrobitBase.jpg)  
   ![MicrobitAssemble.jpg](/Image/MicrobitAssemble.jpg)
 
