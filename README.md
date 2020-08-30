@@ -17,7 +17,7 @@ This software is released under the MIT License, see LICENSE.txt.
 - Make a circuit.
   - Connect to Micro::bit. Thermography, temperature sensor and human sensor.
   - Refer to Image folder.
-  - ![image](/Image/598368)
+  - ![image](/Image/598368.jpg)
 
 ### RaspberryPi
 - clone on RaspberryPi.
