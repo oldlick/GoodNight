@@ -30,38 +30,38 @@
   - 写真を参考にして、ラズパイに赤外線LEDと赤外線センサーをつなぐ。  
   ![MicrobitModules.jpg](/Image/RaspberrypiModules.jpg)
 
-### option
-- Change the infrared signal to be sent.
+### オプション
+- 送信する赤外線を変更する。
   - $ ./ir
-  - Send a signal to the infrared sensor.
-  - Write the displayed value to codeData.txt.
-  - codeData.txt's line:
-  - Line 1: Turn on the light.
-  - Line 2: Turn off the lights.
-  - Line 3: Turn on the air conditioning.
-  - Line 4: Turn off the air conditioning.  
-- Use a 3D printer to print a compact base of Micro::bit.
-  - The 3D data is in MicrobitBase.stl
+  - 上記のプログラムを実行中に、センサーに向けて赤外線信号を送る。
+  - 表示された数列をcodeData.txtに書き込む。
+  - codeData.txtの解釈:
+  - 1行目: 照明をつける信号。
+  - 2行目: 照明を消す信号。
+  - 3行目: エアコンをつける信号。
+  - 4行目: エアコンを消す信号。
+- 3Dプリンターを用いてMicro::bitをコンパクトにまとめる土台を作る.
+  - 3DデータはMicrobitBase.stlとしてImageの中にある。
   ![MicrobitBase.jpg](/Image/MicrobitBase.jpg)  
   ![MicrobitAssemble.jpg](/Image/MicrobitAssemble.jpg)
 
 
 
-## HOW TO USE
+## 使い方
 ### Micro::bit
-- Put Micro::bit on your sleeping area.
-- Turn on the power.
-  - Connect the MicroUSB connector to the power supply.
-  - Don't use the connector on the Micro::bit. (To supply 5v to the human sensor.)
+- 枕元に置く。
+- 電源をつける。
+  - MicroUSBを接続することで給電する。
+  - この時Micro::bitに付属しているMicroUSBコネクタにはつながない。(人感センサーに5vを給電するため。)
 
 ### RaspberryPi
-- Launch the program that controls the RaspberryPi.
+- RaspberryPiをコントロールするプログラムを起動する。
   - $ python3 /GoodNight/main.py
-- Use the RaspberryPi browser to run the Micro::bit.
-  - Open file:///home/pi/Microbit/index.html in the RaspberryPi browser.
-  - Press the Connect button.
+- ブラウザを用いてMicro::bitと通信する。
+  - ブラウザのURLを入力する欄に file:///home/pi/Microbit/index.html と入力する
+  - Connectボタンを押す
 
-### option
-- @file:///home/pi/Microbit/index.html
-  - If you enter a machinist API key, you can record the temperature data in the machinist.
-  - [not yet] In the future, I want to make that can keep track of how much sleep.
+### オプション
+- 気温を記録する。
+  - machinist API keyを入力すると、machinistに気温を記録することが出来る。
+  - 将来的には、寝ている時間を記録できるようにしたい。
