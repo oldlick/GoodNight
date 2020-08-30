@@ -1,38 +1,33 @@
 # GoodNight
-## LICENSE
-- This software is released under the MIT License, see LICENSE.txt.
+## オープンソース・ライセンス
+- オープンソース・ライセンスはREADME.mdの通りである。
 
-## LANGUAGE
-- Japanese.pdf is the explanation in Japanese.
+## コンセプト
+- 睡眠の管理をして快眠を促す。
+- 眠ったことを検知し、起きたい時間に電気をつける。
+- Micro::bitを枕元に、RaspberryPiを机に置いて使用する。
 
-## CONCEPT
-- This device manages your sleep.
-- Detect sleep and turn on the lights at the time you want to wake up.
-- Put Micro::bit on your sleeping area and RaspberryPi on your desk.
-
-## SET UP
+## 準備
 ### Micro::bit
-- Writing CHIRIMEN image to Micro::bit.
+- CHIRIMENのイメージをMicro::bitに書き込む。
   - CHIRIMEN with micro:bit : https://makecode.microbit.org/_Jh51P7beW6Kb
-- Make a circuit.
-  - Connect to Micro::bit. Thermography, temperature sensor and human sensor.
-  - Refer to Image folder.  
+- 回路を作る。
+  - 写真を参考にして、Micro::bitにサーモグラフィーと温度センサー、人感センサーをつなぐ。  
   ![MicrobitModules.jpg](/Image/MicrobitModules.jpg)  
   ![MicrobitPins.jpg](/Image/MicrobitPins.jpg)  
   ![MicrobitHumansensor.jpg](/Image/MicrobitHumansensor.jpg)
 
 ### RaspberryPi
-- clone on RaspberryPi.
-  - $ git clone https://github.com/oldlick/GoodNight/tree/master/RaspberryPi GoodNight
-- If nodejs does not exist, download it.
+- コードをRaspberryPiにコピーする。
+  - $ git clone https://github.com/oldlick/GoodNight/tree/master/Code GoodNight
+- nodejsをインストールする。
   - $ sudo apt-get install nodejs
-- If pigpio does not exist, download it.
+- pigpioをインストールする。
   - $ sudo apt-get install pigpio
-- Compile ir.cpp.
+- ir.cppをコンパイルする。
   - $ g++ ir.cpp -o ir -lpigpio
-- Make a circuit.
-  - Connect to RaspberryPi. IR-LED and IR-sensor.
-  - Refer to Image folder.  
+- 回路を作る。
+  - 写真を参考にして、ラズパイに赤外線LEDと赤外線センサーをつなぐ。  
   ![MicrobitModules.jpg](/Image/RaspberrypiModules.jpg)
 
 ### option
