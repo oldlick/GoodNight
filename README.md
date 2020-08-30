@@ -16,10 +16,10 @@ This software is released under the MIT License, see LICENSE.txt.
   - CHIRIMEN with micro:bit : https://makecode.microbit.org/_Jh51P7beW6Kb
 - Make a circuit.
   - Connect to Micro::bit. Thermography, temperature sensor and human sensor.
-  - Refer to Image folder.
-  ![image](/Image/598368.jpg)
-  ![image](/Image/598372.jpg)
-  ![image](/Image/598376.jpg)
+  - Refer to Image folder.  
+  ![image](/Image/598368.jpg)  
+  ![image](/Image/598372.jpg)  
+  ![image](/Image/598376.jpg)  
 
 ### RaspberryPi
 - clone on RaspberryPi.
