@@ -23,7 +23,7 @@
 
 ### RaspberryPi
 - clone on RaspberryPi.
-  - $ git clone https://github.com/oldlick/GoodNight/tree/master/RaspberryPi GoodNight
+  - $ git clone https://github.com/oldlick/GoodNight/tree/master/Code GoodNight
 - If nodejs does not exist, download it.
   - $ sudo apt-get install nodejs
 - If pigpio does not exist, download it.
