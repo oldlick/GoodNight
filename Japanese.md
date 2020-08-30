@@ -15,7 +15,8 @@
   - 写真を参考にして、Micro::bitにサーモグラフィーと温度センサー、人感センサーをつなぐ。  
   ![MicrobitModules.jpg](/Image/MicrobitModules.jpg)  
   ![MicrobitPins.jpg](/Image/MicrobitPins.jpg)  
-  ![MicrobitHumansensor.jpg](/Image/MicrobitHumansensor.jpg)
+  ![MicrobitHumansensor.jpg](/Image/MicrobitHumansensor.jpg)  
+  ![MicrobitWiring.jpg](/Image/MicrobitWiring.jpg)  
 
 ### RaspberryPi
 - コードをRaspberryPiにコピーする。
@@ -28,7 +29,8 @@
   - $ g++ ir.cpp -o ir -lpigpio
 - 回路を作る。
   - 写真を参考にして、ラズパイに赤外線LEDと赤外線センサーをつなぐ。  
-  ![MicrobitModules.jpg](/Image/RaspberrypiModules.jpg)
+  ![RaspberrypiModules.jpg](/Image/RaspberrypiModules.jpg)  
+  ![RaspberrypiWiring.jpg](/Image/RaspberrypiWiring.jpg)  
 
 ### オプション
 - 送信する赤外線を変更する。
@@ -41,11 +43,9 @@
   - 3行目: エアコンをつける信号。
   - 4行目: エアコンを消す信号。
 - 3Dプリンターを用いてMicro::bitをコンパクトにまとめる土台を作る.
-  - 3DデータはMicrobitBase.stlとしてImageの中にある。
+  - 3DデータはMicrobitBase.stlとしてImageの中にある。  
   ![MicrobitBase.jpg](/Image/MicrobitBase.jpg)  
-  ![MicrobitAssemble.jpg](/Image/MicrobitAssemble.jpg)
-
-
+  ![MicrobitAssemble.jpg](/Image/MicrobitAssemble.jpg)  
 
 ## 使い方
 ### Micro::bit
