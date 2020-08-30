@@ -57,11 +57,8 @@ This software is released under the MIT License, see LICENSE.txt.
   - $ ./ir
   - Send a signal to the infrared sensor.
   - Write the displayed value to codeData.txt.
-  - Line 1 of codeData.txt: Turn on the light
+  - codeData.txt's line:
+  - Line 1: Turn on the light.
   - Line 2: Turn off the lights.
   - Line 3: Turn on the air conditioning.
-  - Line 4: Turn off the air conditioning.
-|  TH  |  TH  |
-| ---- | ---- |
-|  TD  |  TD  |
-|  TD  |  TD  |
+  - Line 4: Turn off the air conditioning.  
