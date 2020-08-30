@@ -17,15 +17,19 @@ This software is released under the MIT License, see LICENSE.txt.
 - Make a circuit.
   - Connect to Micro::bit. Thermography, temperature sensor and human sensor.
   - Refer to Image folder.  
-  ![image](/Image/598368.jpg)  
-  ![image](/Image/598372.jpg)  
-  ![image](/Image/598376.jpg)  
+  ![MicrobitModules.jpg](/Image/MicrobitModules.jpg)  
+  ![MicrobitPins.jpg](/Image/MicrobitPins.jpg)  
+  ![MicrobitHumansensor.jpg](/Image/MicrobitHumansensor.jpg)  
 
 ### RaspberryPi
 - clone on RaspberryPi.
   - $ git clone https://github.com/oldlick/GoodNight/tree/master/RaspberryPi GoodNight
 - If nodejs does not exist, download it.
   - $ sudo apt-get install nodejs
+- If pigpio does not exist, download it.
+  - $ sudo apt-get install pigpio
+- Compile ir.cpp.
+  - $ g++ ir.cpp -o ir -lpigpio
 
 ## HOW TO USE
 ### Micro::bit
