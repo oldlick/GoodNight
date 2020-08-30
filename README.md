@@ -19,7 +19,8 @@
   - Refer to Image folder.  
   ![MicrobitModules.jpg](/Image/MicrobitModules.jpg)  
   ![MicrobitPins.jpg](/Image/MicrobitPins.jpg)  
-  ![MicrobitHumansensor.jpg](/Image/MicrobitHumansensor.jpg)
+  ![MicrobitHumansensor.jpg](/Image/MicrobitHumansensor.jpg)  
+  ![MicrobitWiring.jpg](/Image/MicrobitWiring.jpg)  
 
 ### RaspberryPi
 - clone on RaspberryPi.
@@ -33,7 +34,8 @@
 - Make a circuit.
   - Connect to RaspberryPi. IR-LED and IR-sensor.
   - Refer to Image folder.  
-  ![MicrobitModules.jpg](/Image/RaspberrypiModules.jpg)
+  ![RaspberrypiModules.jpg](/Image/RaspberrypiModules.jpg)  
+  ![RaspberrypiWiring.jpg](/Image/RaspberrypiWiring.jpg)  
 
 ### option
 - Change the infrared signal to be sent.
@@ -48,9 +50,7 @@
 - Use a 3D printer to print a compact base of Micro::bit.
   - The 3D data is in MicrobitBase.stl
   ![MicrobitBase.jpg](/Image/MicrobitBase.jpg)  
-  ![MicrobitAssemble.jpg](/Image/MicrobitAssemble.jpg)
-
-
+  ![MicrobitAssemble.jpg](/Image/MicrobitAssemble.jpg)  
 
 ## HOW TO USE
 ### Micro::bit
