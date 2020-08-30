@@ -35,6 +35,22 @@ This software is released under the MIT License, see LICENSE.txt.
   - Refer to Image folder.  
   ![MicrobitModules.jpg](/Image/RaspberrypiModules.jpg)
 
+### option
+- Change the infrared signal to be sent.
+  - $ ./ir
+  - Send a signal to the infrared sensor.
+  - Write the displayed value to codeData.txt.
+  - codeData.txt's line:
+  - Line 1: Turn on the light.
+  - Line 2: Turn off the lights.
+  - Line 3: Turn on the air conditioning.
+  - Line 4: Turn off the air conditioning.  
+- Use a 3D printer to print a compact base of Micro::bit.  
+  ![MicrobitBase.jpg](/Image/MicrobitBase.jpg)  
+  ![MicrobitAssemble.jpg](/Image/MicrobitAssemble.jpg)
+
+
+
 ## HOW TO USE
 ### Micro::bit
 - Put Micro::bit on your sleeping area.
@@ -53,12 +69,3 @@ This software is released under the MIT License, see LICENSE.txt.
 - @file:///home/pi/Microbit/index.html
   - If you enter a machinist API key, you can record the temperature data in the machinist.
   - [not yet] In the future, I want to make that can keep track of how much sleep.
-- Change the infrared signal to be sent.
-  - $ ./ir
-  - Send a signal to the infrared sensor.
-  - Write the displayed value to codeData.txt.
-  - codeData.txt's line:
-  - Line 1: Turn on the light.
-  - Line 2: Turn off the lights.
-  - Line 3: Turn on the air conditioning.
-  - Line 4: Turn off the air conditioning.  
