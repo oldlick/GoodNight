@@ -13,32 +13,32 @@ This software is released under the MIT License, see LICENSE.txt.
 ## SET UP
 ### Micro::bit
 - Writing CHIRIMEN image to Micro::bit.
- - CHIRIMEN with micro:bit : https://makecode.microbit.org/_Jh51P7beW6Kb
+  - CHIRIMEN with micro:bit : https://makecode.microbit.org/_Jh51P7beW6Kb
 - Make a circuit.
- - Connect to Micro::bit. Thermography, temperature sensor and human sensor.
- - Refer to Micro::bit_IMG folder.
+  - Connect to Micro::bit. Thermography, temperature sensor and human sensor.
+  - Refer to Micro::bit_IMG folder.
 
 ### RaspberryPi
 - clone on RaspberryPi.
- - $ git clone https://github.com/oldlick/GoodNight/tree/master/RaspberryPi GoodNight
+  - $ git clone https://github.com/oldlick/GoodNight/tree/master/RaspberryPi GoodNight
 - If nodejs does not exist, download it.
- - $ sudo apt-get install nodejs
+  - $ sudo apt-get install nodejs
 
 ## HOW TO USE
 ### Micro::bit
 - Put Micro::bit on your sleeping area.
 - Turn on the power.
- - Connect the MicroUSB connector to the power supply.
- - Don't use the connector on the Micro::bit. (To supply 5v to the human sensor.)
+  - Connect the MicroUSB connector to the power supply.
+  - Don't use the connector on the Micro::bit. (To supply 5v to the human sensor.)
 
 ### RaspberryPi
 - Launch the program that controls the RaspberryPi.
- - $ python3 /GoodNight/main.py
+  - $ python3 /GoodNight/main.py
 - Use the RaspberryPi browser to run the Micro::bit.
- - Open file:///home/pi/Microbit/index.html in the RaspberryPi browser.
- - Press the Connect button.
+  - Open file:///home/pi/Microbit/index.html in the RaspberryPi browser.
+  - Press the Connect button.
 
 ### option
 - @file:///home/pi/Microbit/index.html
- - If you enter a machinist API key, you can record the temperature data in the machinist.
- - [not yet] In the future, I want to make that can keep track of how much sleep.
+  - If you enter a machinist API key, you can record the temperature data in the machinist.
+  - [not yet] In the future, I want to make that can keep track of how much sleep.
