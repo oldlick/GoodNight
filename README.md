@@ -19,7 +19,7 @@ This software is released under the MIT License, see LICENSE.txt.
   - Refer to Image folder.  
   ![MicrobitModules.jpg](/Image/MicrobitModules.jpg)  
   ![MicrobitPins.jpg](/Image/MicrobitPins.jpg)  
-  ![MicrobitHumansensor.jpg](/Image/MicrobitHumansensor.jpg)  
+  ![MicrobitHumansensor.jpg](/Image/MicrobitHumansensor.jpg)
 
 ### RaspberryPi
 - clone on RaspberryPi.
@@ -30,6 +30,10 @@ This software is released under the MIT License, see LICENSE.txt.
   - $ sudo apt-get install pigpio
 - Compile ir.cpp.
   - $ g++ ir.cpp -o ir -lpigpio
+- Make a circuit.
+  - Connect to RaspberryPi. IR-LED and IR-sensor.
+  - Refer to Image folder.  
+  ![MicrobitModules.jpg](/Image/RaspberrypiModules.jpg)
 
 ## HOW TO USE
 ### Micro::bit
