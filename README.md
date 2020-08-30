@@ -1,9 +1,9 @@
 # GoodNight
-## LICENSE  
-This software is released under the MIT License, see LICENSE.txt.
+## LICENSE
+- This software is released under the MIT License, see LICENSE.txt.
 
 ## LANGUAGE
-- Japanese.pdf is the explanation in Japanese.
+- Japanese.md is the explanation in Japanese.
 
 ## CONCEPT
 - This device manages your sleep.
