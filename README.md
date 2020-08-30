@@ -53,3 +53,15 @@ This software is released under the MIT License, see LICENSE.txt.
 - @file:///home/pi/Microbit/index.html
   - If you enter a machinist API key, you can record the temperature data in the machinist.
   - [not yet] In the future, I want to make that can keep track of how much sleep.
+- Change the infrared signal to be sent.
+  - $ ./ir
+  - Send a signal to the infrared sensor.
+  - Write the displayed value to codeData.txt.
+  - Line 1 of codeData.txt: Turn on the light
+  - Line 2: Turn off the lights.
+  - Line 3: Turn on the air conditioning.
+  - Line 4: Turn off the air conditioning.
+|  TH  |  TH  |
+| ---- | ---- |
+|  TD  |  TD  |
+|  TD  |  TD  |
