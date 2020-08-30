@@ -1,5 +1,5 @@
 /*
-index.html
+main.js
 
 Copyright (c) 2020 oldlick
 
