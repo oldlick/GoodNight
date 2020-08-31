@@ -43,7 +43,7 @@
   - Send a signal to the infrared sensor.
   - Write the displayed value to codeData.txt.
   - codeData.txt's line:
-  - Line 1: Turn on the light.
+  - Line 1: Turn on the lights.
   - Line 2: Turn off the lights.
   - Line 3: Turn on the air conditioning.
   - Line 4: Turn off the air conditioning.  
@@ -70,3 +70,11 @@
 - @file:///home/pi/Microbit/index.html
   - If you enter a machinist API key, you can record the temperature data in the machinist.
   - [not yet] In the future, I want to make that can keep track of how much sleep.
+
+## VIDEO
+- When you put your hand in front of it, turn off the lights.
+- When you move your hand away, turn on the lights.  
+  ![Video1.mp4](/Image/Video1.mp4)  
+- When you put your hand in front of it, turn off the lights.
+- urn on the lights at the time you set.  
+  ![Video2.mp4](/Image/Video2.mp4)  
