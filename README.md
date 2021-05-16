@@ -4,6 +4,7 @@
 
 ## LANGUAGE
 - Japanese.md is the explanation in Japanese.
+- （日本語版 Japanese.md）
 
 ## CONCEPT
 - This device manages your sleep.
